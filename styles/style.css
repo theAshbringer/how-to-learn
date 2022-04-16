@@ -145,10 +145,11 @@
 
 .digits__title {
   margin-bottom: 20px;
+  width: 60%;
 }
 
 .digits__subtitle {
-  margin: 0;
+  width: 60%;
 }
 
 .digits__table{
@@ -156,8 +157,7 @@
 }
 
 .section-title {
-  margin-top: 0;
-  width: 60%;
+  margin: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
