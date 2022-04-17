@@ -41,8 +41,6 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 228px;
-  height: 32px;
 }
 
 .header__title {
@@ -88,8 +86,17 @@
   background-color: #2f80ed;
 }
 
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
 .logo_place_header {
   background-image: url('../images/logo_place_header.svg');
+}
+
+.logo_place_footer {
+  background-image: url('../images/logo_place_footer.svg');
 }
 
 .two-columns {
