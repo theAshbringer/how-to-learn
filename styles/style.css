@@ -18,6 +18,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .header__logo {
@@ -34,6 +35,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -44,6 +46,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__link {
@@ -59,7 +62,7 @@
   height: 608px;
   background-image: url('../images/header-image.png');
   background-size: cover;
-  z-index: 3;
+  z-index: 1;
 }
 
 .header__square-pic {
