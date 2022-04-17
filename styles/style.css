@@ -46,6 +46,11 @@
   font-weight: normal;
 }
 
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -64,11 +69,6 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-}
-
-.link {
-  text-decoration: none;
-  color: #2f80ed;
 }
 
 .logo {
@@ -244,6 +244,8 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .kaufman {
@@ -336,6 +338,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #f2f2f2;
+  text-decoration: none;
 }
 
 .footer__social-icon {
