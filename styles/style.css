@@ -340,7 +340,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  list-style: none
+  list-style: none;
 }
 
 .footer__column-link {
