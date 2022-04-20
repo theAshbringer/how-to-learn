@@ -10,20 +10,20 @@
 </head>
 
 <body class="page">
-  <header class="header page__header">
+  <header class="header">
     <div class="logo logo_place_header header__logo"></div>
     <h1 class="header__title">Научиться учиться</h1>
-    <h2 class="header__subtitle">
+    <p class="header__subtitle">
       Какие современные и эффективные подходы к обучению вы можете использовать в своей
       жизни?
       <a class="link header__link" href="#">Узнать →</a>
-    </h2>
+    </p>
     <div class="header__main-illustration"></div>
     <div class="header__square-pic"></div>
   </header>
   <main class="content">
-    <section class="desciption page__description">
-      <div class="two-columns">
+    <section class="desciption">
+      <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
@@ -37,18 +37,11 @@
           <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
             его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
         </div>
-      </div>
-
+      </article>
     </section>
-    <section class="digits page__digits">
-      <div class="digits__title">
-        <!-- обертка сделана для того, чтобы обнуление margin у section-title
-        не стирало margin-bottom у вышестоящего digits__title -->
-        <h2 class="section-title">Цифры и факты</h2>
-      </div>
-      <div class="digits__subtitle">
-        <p class="section-subtitle">Про учёбу и мозг</p>
-      </div>
+    <section class="digits">
+      <h2 class="section-title digits__title">Цифры и факты</h2>
+      <p class="section-subtitle digits__subtitle">Про учёбу и мозг</p>
       <ul class="table digits__table">
         <li class="table__cell">
           <h3 class="table__heading">86 миллиардов</h3>
@@ -86,18 +79,14 @@
         </li>
       </ul>
     </section>
-    <section class="feynman page__feynman">
+    <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
       <a class="link feynman__link" href="#">Подробнее →</a>
     </section>
-    <section class="kaufman page__kaufman">
-      <div class="kaufman__title">
-        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-      </div>
-      <div class="kaufman__subtitle">
-        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-      </div>
+    <section class="kaufman">
+      <h2 class="section-title section-title_theme_dark kaufman__title">Принципы обучения</h2>
+      <p class="section-subtitle section-subtitle_theme_dark kaufman__subtitle">от Джоша Кауфмана</p>
       <ul class="table table_theme_dark kaufman__table">
         <li class="table__cell table__cell_theme_dark">
           <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -144,36 +133,46 @@
       <div class="kaufman__triangle"></div>
     </section>
   </main>
-  <footer class="footer page__footer">
+  <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
         <div class="logo logo_place_footer footer__logo"></div>
-        <div class="footer__author"> &copy; Виктор Абанькин</div>
+        <p class="footer__author"> &copy; Виктор Абанькин</p>
       </div>
-      <div class="footer__column footer__column_content_info">
+      <nav class="footer__column footer__column_content_info">
         <h2 class="footer__column-heading">О Практикуме</h2>
-        <div class="footer__column-links">
-          <a class="footer__column-link" href="#">Главная</a>
-          <a class="footer__column-link" href="#">Концепция</a>
-          <a class="footer__column-link" href="#">Наставники</a>
-        </div>
-      </div>
-      <div class="footer__column footer__column_content_social">
+        <ul class="footer__column-links">
+          <li>
+            <a class="footer__column-link" href="#">Главная</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Концепция</a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">Наставники</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__column footer__column_content_social">
         <h2 class="footer__column-heading">Соцсети</h2>
-        <div class="footer__column-links">
-          <a class="footer__column-link" href="#">
-            <img class="footer__social-icon" src="./images/RKN_site_logo_(2013-2021).svg.png"
-              alt="Роскомнадзор">Facebook
-          </a>
-          <a class="footer__column-link" href="#">
-            <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Вконтакте">Вконтакте
-          </a>
-          <a class="footer__column-link" href="#">
-            <img class="footer__social-icon" src="./images/RKN_site_logo_(2013-2021).svg.png"
-              alt="Роскомнадзор">Instagram
-          </a>
-        </div>
-      </div>
+        <ul class="footer__column-links">
+          <li>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook
+            </a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Вконтакте">Вконтакте
+            </a>
+          </li>
+          <li>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </footer>
 </body>

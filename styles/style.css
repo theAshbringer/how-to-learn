@@ -39,6 +39,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -140,7 +141,7 @@
 }
 
 .digits__title {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   width: 60%;
 }
 
@@ -149,7 +150,6 @@
 }
 
 .section-title {
-  margin: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -264,7 +264,8 @@
 
 .kaufman__title {
   width: 60%;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  z-index: 1;
 }
 
 .kaufman__subtitle {
@@ -332,9 +333,11 @@
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  margin: 0 0 16px;
+  padding: 0;
   display: flex;
   flex-direction: column;
+  list-style: none
 }
 
 .footer__column-link {
