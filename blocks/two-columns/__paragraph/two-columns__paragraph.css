@@ -5,3 +5,7 @@
   font-weight: normal;
   margin-bottom: 30px;
 }
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}
