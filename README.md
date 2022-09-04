@@ -14,6 +14,7 @@ This project has been made for practising skills in HTML and CSS using BEM techn
 - Animations for links on hover
 - Animated geometric shapes as fancy design elements
 - Embedded Youtube videos
+- Valid semantic HTML
 
 
 ## Get Started
