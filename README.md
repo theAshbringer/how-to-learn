@@ -18,7 +18,7 @@ This project has been made for practising skills in HTML and CSS using BEM techn
 
 ## Get Started
 
-You can run this project via Live Server. Also it is available on <a href="https://theashbringer.github.io/how-to-learn/" target="_blank">GH Pages</a>.
+If you use VSCode, you can run this project via Live Server. Also it is available on <a href="https://theashbringer.github.io/how-to-learn/" target="_blank">GH Pages</a>.
 
 ## Things to improve :pencil:
 
